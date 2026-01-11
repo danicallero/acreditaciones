@@ -26,9 +26,7 @@ Con el script `generar_csv.py` puedes generar un csv con los códigos aleatorios
 
 A continuación, generaremos los códigos QR que superpondremos en las acreditaciones. Ejecuta el script `generar_qr.py`
 
-#### 2.1. Colorear los códigos QR
-
-El script `cambiar_color.sh` colorea los códigos QR según su tipo, para que coincidan mejor con el diseño de las acreditaciones. Para cambiar el color edita el valor en hexadecimal de las cuatro últimas líneas del código.
+En este script, puedes cambiar el color de los códigos QR para cada categoría modificando el diccionario `COLORS`. Los colores están en formato hexadecimal.
 
 ### 3. Generar las acreditaciones
 

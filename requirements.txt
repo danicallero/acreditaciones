@@ -1,2 +1,2 @@
-qrcode==8.0
+qrcode[pil]==7.4.2
 svgutils==0.3.4
